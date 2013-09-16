@@ -1,3 +1,5 @@
+# show's the current branch and whether it's clean or dirty
+
 alias gpush="git push origin master"
 alias cdd="cd ~/Detroit\ Labs"
 alias gs="git status -s"
@@ -9,7 +11,7 @@ eval "$(rbenv init -)"
 
 #configure the PS1
 source ~/.bash/git-prompt
-export PS1="\e[0;36m\h: \W \e[m\e[0;35m\$(parse_git_branch_or_tag) $ \e[m"
+export PS1="\e[0;36m\h: \W \e[m\e[0;33m\$( parse_git_branch)\e[m$ "
 
 if [ -f `brew --prefix`/etc/bash_completion ]; then
     . `brew --prefix`/etc/bash_completion
