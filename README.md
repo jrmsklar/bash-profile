@@ -8,3 +8,9 @@ See images below.
 Useful links:
 http://mediadoneright.com/content/ultimate-git-ps1-bash-prompt
 http://www.thegeekstuff.com/2008/09/bash-shell-ps1-10-examples-to-make-your-linux-prompt-like-angelina-jolie/
+
+## Screenshots
+
+bash_profile_1.sh
+
+![](/Screenshots/bash_profile_1_screenshot.png)

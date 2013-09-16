@@ -1,4 +1,4 @@
-if [ -x /usr/bin/tput ] && tput setaf 1 >&/dev/null; then
+  if [ -x /usr/bin/tput ] && tput setaf 1 >&/dev/null; then
   c_reset=`tput sgr0`
   c_user=`tput setaf 2; tput bold`
   c_path=`tput setaf 4; tput bold`
