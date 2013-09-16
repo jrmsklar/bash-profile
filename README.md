@@ -5,7 +5,7 @@ Sample `.bash_profile` configuration files that I've found and modified to my li
 
 ## Usage
 
-In order to configure your bash profile to your one of the profiles here, create a folder in your `~` directory called `.bash_profiles` and add the `git-prompt.sh` file. Add as many profiles in this directory as you want, and copy the code from whichever one you wish to use as your default bash profile to your `.bash_profile` file.
+In order to configure your bash profile to your one of the profiles here, create a folder in your home (`~`) directory called `.bash_profiles` and add the `git-prompt.sh` file. Add as many profiles in this directory as you want, and copy the code from whichever one you wish to use as your default bash profile to your `.bash_profile` file.
 
 Command for this: 
 `cp ~/.bash_profiles/bash_profile_?.sh ~/.bash_profile`
