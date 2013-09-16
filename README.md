@@ -1,7 +1,7 @@
 bash-profile
 ============
 
-Sample `.bash_profile` configuration files that I've found and modified to my liking. Contain some useful code for modifying your command prompt as well as nice aliases.
+Sample `.bash_profile` configuration files that I've found and modified to my liking. Contain some useful code for modifying your command prompt as well as nice aliases. (Don't mind the strange numbering)
 
 ## Usage
 
