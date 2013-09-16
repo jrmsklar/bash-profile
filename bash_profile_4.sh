@@ -11,7 +11,7 @@ eval "$(rbenv init -)"
 
 #configure the PS1
 source ~/.bash_profiles/git-prompt.sh
-export PS1="\e[0;36m\h: \W \e[m\e[0;33m\$( parse_git_branch)\e[m$ "
+export PS1="\e[0;36m\u: \W \e[m\e[0;33m\$( parse_git_branch)\e[m$ "
 
 if [ -f `brew --prefix`/etc/bash_completion ]; then
     . `brew --prefix`/etc/bash_completion

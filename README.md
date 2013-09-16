@@ -1,7 +1,9 @@
 bash-profile
 ============
 
-Sample .bash_profile configuration files. Contain some useful code for modifying your command prompt.
+Sample .bash_profile configuration files that I've found and edited slightly. Contain some useful code for modifying your command prompt.
+
+See images below.
 
 Useful links:
 http://mediadoneright.com/content/ultimate-git-ps1-bash-prompt

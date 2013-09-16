@@ -10,7 +10,7 @@ export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 
 #configure the PS1
-source git-prompt
+source ~/.bash_profiles/git-prompt.sh
 # export PS1="\e[0;36m\h: \W \e[m\e[0;33m\$(parse_git_branch) \$(parse_git_dirty)\e[m$ "
 export PS1="\e[0;36m\h: \W \e[m\e[0;33m\$(parse_git_dirty)\e[m$ "
 
