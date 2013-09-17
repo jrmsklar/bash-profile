@@ -1,7 +1,7 @@
 bash-profile
 ============
 
-Sample `.bash_profile` configuration files that I've found and modified to my liking. Contain some useful code for modifying your command prompt as well as nice aliases. (Don't mind the strange numbering)
+Sample `.bash_profile` configuration files that I've found and modified to my liking. Contain some useful code for modifying your command prompt as well as nice aliases.
 
 ## Usage
 
@@ -17,6 +17,9 @@ bash_profile_1.sh:
 
 bash_profile_2.sh:
 ![](/screenshots/bash_profile_2_screenshot.png)
+
+bash_profile_3.sh:
+![](/screenshots/bash_profile_3_screenshot.png)
 
 bash_profile_4.sh:
 ![](/screenshots/bash_profile_4_screenshot.png)
