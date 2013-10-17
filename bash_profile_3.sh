@@ -14,14 +14,13 @@ function parse_git_branch {
 	echo $(parse_git_dirty)$(parse_git_branch_name)
 }
 
-# show's the current branch and whether it's clean or dirty
-
 alias gpush="git push origin master"
 alias cdd="cd ~/Detroit\ Labs"
 alias gs="git status -s"
 alias gb="git branch"
-alias gch="git checkout"
 alias gl="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --"
+alias o="open ." #opens the current in Finder
+
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 
