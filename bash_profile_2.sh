@@ -1,6 +1,17 @@
 #  Customize BASH PS1 prompt to show current GIT repository and branch.
 #  by Mike Stewart - http://MediaDoneRight.com
 
+# Edit: Since Mac OS X installations of Git don't have "__git_ps1" included, we need to grab .git-prompt.sh from github and place it in our home directory 
+if [ ! -f ~/.git-prompt.sh ];
+then
+echo "Fetching dependencies: https://raw.github.com/git/git/master/contrib/completion/git-prompt.sh"
+curl -o ~/.git-prompt.sh \
+https://raw.github.com/git/git/master/contrib/completion/git-prompt.sh
+fi
+
+# Edit: Reference the downloaded .git-prompt.sh file located in our home directory
+source ~/.git-prompt.sh
+
 #  SETUP CONSTANTS
 #  Bunch-o-predefined colors.  Makes reading code easier than escape sequences.
 #  I don't remember where I found this.  o_O
