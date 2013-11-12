@@ -19,7 +19,7 @@ alias cdd="cd ~/Detroit\ Labs"
 alias gs="git status -s"
 alias gb="git branch"
 alias gch="git checkout"
-alias gl="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --"
+alias gpu="git pull upstream master"
 alias gl="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --"
 alias o="open ." #opens the current in Finder
 
