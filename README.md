@@ -7,7 +7,7 @@ I use bash_profile_3.
 
 ## Usage
 
-In order to configure your bash profile to your one of the profiles here, create a folder in your home (`~`) directory called `.bash_profiles` and add the `git-prompt.sh` file. Add as many profiles in this directory as you want, and copy the code from whichever one you wish to use as your default bash profile to your `.bash_profile` file.
+In order to configure your bash profile to one of the profiles below, create a folder in your home (`~`) directory called `.bash_profiles` and add the `git-prompt.sh` file. Add as many profiles to this directory as you like, and copy the code from whichever one you wish to use as your default bash profile to your `.bash_profile` file.
 
 Command for this: 
 
