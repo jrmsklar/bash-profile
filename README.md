@@ -3,7 +3,7 @@ bash-profile
 
 Sample `.bash_profile` configuration files that I've found and modified to my liking. Contain some useful code for modifying your command prompt as well as nice aliases.
 
-I use bash_profile_3.
+I personally use `bash_profile_3`.
 
 ## Usage
 
