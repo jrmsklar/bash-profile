@@ -7,11 +7,11 @@ I personally use `bash_profile_3`.
 
 ## Usage
 
-In order to configure your bash profile to one of the profiles below, create a folder in your home (`~`) directory called `.bash_profiles` and add the `git-prompt.sh` file. Add as many profiles to this directory as you like, and copy the code from whichever one you wish to use as your default bash profile to your `.bash_profile` file.
+In order to configure your bash profile to one of the profiles below, create a folder in your home (`~`) directory called `.bash_profiles` and add the `git-prompt.sh` file. Add as many profiles to this directory as you like, and create a symbolic link from whichever one you wish to use as your default bash profile to `.bash_profile`.
 
 Command for this: 
 
-`cp ~/.bash_profiles/bash_profile_<profile number>.sh ~/.bash_profile`
+`ln -s /path/to/desired/profile ~/.bash_profile`
 
 ## Screenshots
 
