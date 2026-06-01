@@ -24,7 +24,6 @@ alias gpu="git pull upstream master"
 alias gl="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --"
 alias o="open ."
 
-# PATH + rbenv
 export PATH="$HOME/bin:$HOME/.local/bin:$PATH"
 
 # Prompt (PROMPT_SUBST lets $() evaluate dynamically)
